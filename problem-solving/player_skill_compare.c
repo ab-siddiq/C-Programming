@@ -1,7 +1,4 @@
 #include<stdio.h>
-int winner(int winner){
-
-}
 int compareWinner(int a, int b){
     int matchWinner;
     if(a>b){
@@ -21,14 +18,14 @@ int main(){
     match1 = compareWinner(a,b);
     match2 = compareWinner(c,d);
     final = compareWinner(match1,match2);
-    printf("%d",match1);
-    printf("%d",match2);
-    printf("%d",final);
+    printf("Match 1 winner: %d \n",match1);
+    printf("Match 2 winner: %d \n",match2);
+    printf("Final match winner: %d \n",final);
 
     if(final > 0){
-        printf("Yes");
+        printf("Match was fare: Yes!");
     }else{
-        printf("No");
+        printf("Match was fare: No");
     }
 
 }
