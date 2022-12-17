@@ -20,7 +20,7 @@ int main() {
         }
     } 
     for(int i=0;i<high;i++){
-        printf("%d %d\n",freq[i],i);
+        printf("%d ",freq[i]);
     }   
     return 0;
 }
